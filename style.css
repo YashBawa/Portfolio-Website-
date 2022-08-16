@@ -1,0 +1,225 @@
+body {
+  /* background-image: linear-gradient(
+    to right,
+    #0b132b,
+    #1c2541
+  ); */
+  background-color: #111c3ef3;
+  /* background-color: #1C2541; */
+}
+/* header  */
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 22px;
+}
+.navbar_items{
+    
+  display: flex;
+}
+.navbar_items li{
+  margin-right: 1.5cm;
+  color :#5bc0be;
+  float: right;
+}
+.Navbar{
+  box-sizing: 1% 100% ;
+  /*#0b132b; */
+  background-color:#0B132B;
+  display: flex;
+}
+
+/* content started */
+.photo_intro {
+  display:flex;
+  justify-content: center;
+  padding: 10%;
+}
+.self {
+  justify-content: center;
+  color:rgb(127, 255, 212);
+}
+.name_top h2{
+  font-size: 5rem;
+  font-weight: 800;
+  font-style: Times New Roman; 
+}
+.name_top p{
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: Times New Roman; 
+}
+#self_taught{
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: Times New Roman; 
+}
+#self_skills{
+  margin-top: 0.4cm;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: Times New Roman; 
+}
+.yash_photo {
+  box-sizing: border-box;
+  border-color: white;
+  margin-left: 20%;
+
+}
+.ybashpic {
+  width: 8cm;
+  height: 10cm;
+  border-radius: 5%;
+  border: 2px solid #5bc0be;
+
+}
+/* // yet to decide  */
+.yash_photobg{
+  opacity: 10%;
+  position:relative;  
+  width: 25cm;
+  height: 25cm;
+  /* right:10px; */
+  /* border-radius: 5%; */
+}
+
+
+
+/* next side  */
+
+.about{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  /* padding: 10%; */
+}
+#abt{
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  left: 10cm;
+  display: flex;
+  justify-content: center;
+  color: aquamarine;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif; 
+}
+.animation video {
+  margin-top: -2cm;
+  height: 10cm;
+  width: 10cm;
+  margin-left: 2cm;
+  border-radius: 15%;
+  border-color: yellow;
+}
+.para{
+  margin-left: 10cm;
+  margin-right: 5cm;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 10%;
+  /* padding: 2%; */
+  color:rgba(127, 255, 212, 0.696);
+}
+.thts{
+  display: flex;
+  justify-content: center;
+  height:20mm;
+  margin-top: 0cm;
+  margin-left: 30cm;
+  margin-left:4cm;
+}
+#about{
+  border-width: 4px;
+  border-color:rgba(18, 83, 225, 0.822);
+  border-radius: 10%;
+  margin-left: 10cm;
+  margin-right: 5cm;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 10%;
+  /* padding: 2%; */
+  color:rgba(127, 255, 212, 0.696);
+}
+
+/* skills styling */
+.skills{
+  margin-top: 5cm;
+  margin-bottom: 5cm;
+}
+.skills h1{
+  text-decoration: underline;
+  display: flex;
+  justify-content:center;
+  /* margin-left: 1cm; */
+  color:aquamarine;
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+.skills p{
+  margin-top:1cm;
+  display: flex;
+  justify-content: left;
+  margin-left:4px;
+  color:aquamarine;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+.skills_content_header{
+  margin-top:1cm;
+  margin-left: 10cm;
+  font-size: 5rem;
+  padding: 2%;
+}
+#html{
+  color:orangered;
+}
+#css{
+  color:rgb(26, 160, 213);
+}
+#js{
+  color:yellow;
+}
+#react{
+  color:blue;
+}
+#java{
+  color:white;
+}
+#c{
+  color:rgb(22, 158, 212)
+}
+#git{
+  color:orangered;
+}
+
+/* begin with projects */
+
+  
+  /* // footer description  */
+  .fav_icon{
+    padding: 1.5% ;
+  }
+  .footer {
+    height: 4cm;
+    background-color:#0B132B;
+  }
+  .footer_top a{
+    margin-top: 2%;
+    font-size: xx-large;
+    margin-right: 3%;
+    /* display : flex ; */
+  }
+  .footer_top {
+    padding-top: 1%;
+    justify-content: center;
+    display: flex;
+  }
+  .footer_bottom {
+    color:yellow;
+    font-size: large;
+    /* padding-bottom:1%; */
+    flex-direction: column;
+    text-align: center;
+  }
