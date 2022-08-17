@@ -11,6 +11,8 @@ body {
 h1 {
   font-family: "Permanent Marker";
   font-size: 22px;
+  margin: 0 auto;
+  width: 100%;
 }
 .navbar_items{
     
@@ -25,6 +27,8 @@ h1 {
   box-sizing: 1% 100% ;
   /*#0b132b; */
   background-color:#0B132B;
+  width: 100%;
+  max-width: 200%;
   display: flex;
 }
 
