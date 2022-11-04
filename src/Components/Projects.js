@@ -1,6 +1,7 @@
 import React from 'react'
 import Detailcard from './Detailcard';
 
+
 import w2p1 from "../images/w2p1.png";
 import w2p2 from "../images/w2p2.png";
 import w2p3 from "../images/w2p3.png";
